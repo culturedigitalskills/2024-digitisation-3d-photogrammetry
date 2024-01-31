@@ -1,8 +1,16 @@
 ---
 title: 'Introduction'
-teaching: 10
-exercises: 2
+teaching: 20
+exercises: 10
 ---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
+Introduces the basics of the photogrammetry technique, and its applications
+in Cultural Heritage.
+
+::::::::::
+
 
 Photogrammetry is a techniques also known as Structure from Motion (SfM). 
 
@@ -17,9 +25,9 @@ The underlying technology is more familiar that you might think!
 It is based on the same principles that the ones use by our
 vision system to perceive the 3-dimensional world.
 
-![Bernard de Go Mars under Public Domain &copy; from [Wikimedia] (https://commons.wikimedia.org/w/index.php?curid=25846)](fig/Yokohama4MaidsChrysanthemum.jpg){alt="two views"}
+![Bernard de Go Mars under Public Domain &copy; from [Wikimedia] (https://commons.wikimedia.org/w/index.php?curid=25846)](fig/Yokohama4MaidsChrysanthemum.jpg){alt="two views" width="60%"}
 
-![Bernard de Go Mars under Public Domain &copy; from [Wikimedia] (https://commons.wikimedia.org/w/index.php?curid=25846)](fig/Yokohama4MaidsChrysanthemumWikiAnim.gif){alt="two views animated"}
+![Bernard de Go Mars under Public Domain &copy; from [Wikimedia] (https://commons.wikimedia.org/w/index.php?curid=25846)](fig/Yokohama4MaidsChrysanthemumWikiAnim.gif){alt="two views animated" width="60%"}
 
 Because of this, analogue photographers in the 19th century were already producing stereoscopic and photogrammetry
 set of images of many subjects[^1].
@@ -51,6 +59,13 @@ or reflective, shiny objects. Neither
 does it work well with objects that move
 constantly, like a live animal or a dress
 worn by someone.
+
+While photogrammetry may not be ideal for reflective, 
+transparent, and moving objects, there are other 
+Sometimes, this includes coating an object
+with sprays, or accessing specialised dome-shape equipment
+that captures the interaction of light with an object
+so that this can be replicated in the 3D model.
 
 It can be easily deployed with
 basic equipment, including **digital cameras**
