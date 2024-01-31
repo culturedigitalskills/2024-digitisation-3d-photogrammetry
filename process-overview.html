@@ -86,11 +86,11 @@
   Photogrammetry 3D Digitisation
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 20%" class="percentage">
-    20%
+<aside class="col-md-12 lesson-progress"><div style="width: 11%" class="percentage">
+    11%
   </div>
   <div class="progress incubator">
-    <div class="progress-bar incubator" role="progressbar" style="width: 20%" aria-valuenow="20" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar incubator" role="progressbar" style="width: 11%" aria-valuenow="11" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -198,7 +198,7 @@
 <div class="accordion accordion-flush" id="accordionFlush6">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading6">
-        <a href="links.html">5. Links</a>
+        <a href="links.html">5. Additional Links</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -292,7 +292,7 @@ success.</p>
 distinctive.</p>
 <p>Corners and other distinctive patterns in the image are obvious
 features to consider.</p>
-<figure><img src="fig/sift1.png" alt="sift algorithm" class="figure mx-auto d-block"><figcaption>Feature points in photograph of building © Lukas Mach
+<figure><img src="fig/sift1.png" style="width:60.0%" alt="sift algorithm" class="figure mx-auto d-block"><figcaption>Feature points in photograph of building © Lukas Mach
 at <a href="https://en.m.wikipedia.org/wiki/File:Sift_keypoints_filtering.jpg" class="external-link">English
 Wikipedia</a></figcaption></figure><div id="challenge-try-it-yourself" class="callout discussion">
 <div class="callout-square">
@@ -303,7 +303,7 @@ Wikipedia</a></figcaption></figure><div id="challenge-try-it-yourself" class="ca
 </h3>
 <div class="callout-content">
 <p>Which points would you choose in this image of a building?</p>
-<figure><img src="fig/Edifice_Shaughnessy.jpg" alt="building" class="figure mx-auto d-block"><figcaption>Édifice Shaughnessy, 401-407, rue McGill, Montréal ©
+<figure><img src="fig/Edifice_Shaughnessy.jpg" style="width:60.0%" alt="building" class="figure mx-auto d-block"><figcaption>Édifice Shaughnessy, 401-407, rue McGill, Montréal ©
 Jeangagnon at <a href="https://commons.wikimedia.org/wiki/File:Edifice_Shaughnessy_-_01.jpg" class="external-link">Wikimedia</a></figcaption></figure><p>Why?</p>
 </div>
 </div>
@@ -317,7 +317,7 @@ Jeangagnon at <a href="https://commons.wikimedia.org/wiki/File:Edifice_Shaughnes
 </h3>
 <div class="callout-content">
 <p>Which points would you choose in this image of a vase?</p>
-<figure><img src="fig/Vase_MET_45484.jpg" alt="vase" class="figure mx-auto d-block"><figcaption>Vase by Jersey Glass Company of George Dummer (MET,
+<figure><img src="fig/Vase_MET_45484.jpg" style="width:60.0%" alt="vase" class="figure mx-auto d-block"><figcaption>Vase by Jersey Glass Company of George Dummer (MET,
 20.48.1) © Metropolitan Museum of Art at <a href="https://commons.wikimedia.org/wiki/File:Vase_MET_45484.jpg" class="external-link">Wikimedia</a></figcaption></figure><p>What makes this image different from the one before?</p>
 </div>
 </div>
@@ -331,9 +331,8 @@ Jeangagnon at <a href="https://commons.wikimedia.org/wiki/File:Edifice_Shaughnes
 </h3>
 <div class="callout-content">
 <p>Which points would you choose in this image of a silver mug?</p>
-<figure><img src="fig/Mug_Adrian_Bancker.jpg" alt="mugs" class="figure mx-auto d-block"><figcaption>Silver mugs created by Adrian Bancker (1703-1772)
-between 1731-1750. Currently held by the Museum of the City of New York.
-© Adrian Bancker at <a href="https://commons.wikimedia.org/wiki/File:Mug_Adrian_Bancker.jpg" class="external-link">Wikimedia</a></figcaption></figure><p>Does this share the same challenges with any of the images above?</p>
+<p><img src="fig/Mug_Adrian_Bancker.jpg" alt="mugs" class="figure">{width=“60%”}</p>
+<p>Does this share the same challenges with any of the images above?</p>
 </div>
 </div>
 </div>
@@ -343,7 +342,7 @@ between 1731-1750. Currently held by the Museum of the City of New York.
 different views.</p>
 <p>The software will attempt to match features in two or more images or
 more ideally. We want a reliable result.</p>
-<figure><img src="fig/feature_matching.png" alt="Features matched" class="figure mx-auto d-block"><figcaption>View of features matched by Metashape photogrammetry
+<figure><img src="fig/feature_matching.png" style="width:60.0%" alt="Features matched" class="figure mx-auto d-block"><figcaption>View of features matched by Metashape photogrammetry
 software on a dataset of a coloured carboard box. Blue lines display
 valid matches, and red lines display invalid matches.</figcaption></figure><div id="challenge-try-it-yourself-3" class="callout discussion">
 <div class="callout-square">
@@ -354,7 +353,7 @@ valid matches, and red lines display invalid matches.</figcaption></figure><div 
 </h3>
 <div class="callout-content">
 <p>Do the features below correspond with each other?</p>
-<figure><img src="fig/housematch.png" alt="hosue match" class="figure mx-auto d-block"></figure></div>
+<figure><img src="fig/housematch.png" style="width:100.0%" alt="hosue match" class="figure mx-auto d-block"></figure></div>
 </div>
 </div>
 </section><section id="structure-reconstruction"><h2 class="section-heading">Structure reconstruction<a class="anchor" aria-label="anchor" href="#structure-reconstruction"></a>
@@ -362,14 +361,14 @@ valid matches, and red lines display invalid matches.</figcaption></figure><div 
 <hr class="half-width"><p>Taking into account all identified features in a pair of images, the
 software builds a projection of the points in 3D space by using the
 camera position.</p>
-<figure><img src="fig/Epipolar_Geometry1.svg" alt="projection" class="figure mx-auto d-block"><figcaption>Software computes 3D points describing the scene
+<figure><img src="fig/Epipolar_Geometry1.svg" style="width:100.0%" alt="projection" class="figure mx-auto d-block"><figcaption>Software computes 3D points describing the scene
 geometry © ZooFari in <a href="https://commons.wikimedia.org/w/index.php?curid=6591174" class="external-link">Wikimedia</a></figcaption></figure><p>The scene is incrementally extended by adding new images and
 triangulating new points.</p>
-<figure><img src="fig/pointcloud.png" alt="point cloud" class="figure mx-auto d-block"><figcaption>Point cloud projected by images</figcaption></figure><p>A much denser set of features is produced. The output of this process
+<figure><img src="fig/pointcloud.png" style="width:100.0%" alt="point cloud" class="figure mx-auto d-block"><figcaption>Point cloud projected by images</figcaption></figure><p>A much denser set of features is produced. The output of this process
 is a <strong>point cloud</strong> or a collection of points.</p>
-<figure><img src="fig/denspointcloud.png" alt="dense point cloud" class="figure mx-auto d-block"><figcaption>Point cloud projected by images</figcaption></figure><p>The 3D model is created using what is know as triangulation. This
+<figure><img src="fig/denspointcloud.png" style="width:100.0%" alt="dense point cloud" class="figure mx-auto d-block"><figcaption>Point cloud projected by images</figcaption></figure><p>The 3D model is created using what is know as triangulation. This
 process creates a 3D model with thousands or millions of triangles.</p>
-<figure><img src="fig/traingulated.png" alt="triangulated model" class="figure mx-auto d-block"><figcaption>Triangulated point cloud projected by images</figcaption></figure><figure><img src="fig/triangles.png" alt="triangulated model" class="figure mx-auto d-block"><figcaption>Zooming into the triangles of the 3D model</figcaption></figure><p>The texture is then mapped to this surface.</p>
+<figure><img src="fig/traingulated.png" style="width:100.0%" alt="triangulated model" class="figure mx-auto d-block"><figcaption>Triangulated point cloud projected by images</figcaption></figure><figure><img src="fig/triangles.png" style="width:60.0%" alt="triangulated model" class="figure mx-auto d-block"><figcaption>Zooming into the triangles of the 3D model</figcaption></figure><p>The texture is then mapped to this surface.</p>
 <div class="figure">
 <video src="fig/rotatedmodel.mp4" controls=""><a href="fig/rotatedmodel.mp4"></a></video><figcaption>3D model with texture</figcaption></div>
 <div id="challenge-what-does-this-all-mean-for-me" class="callout discussion">
