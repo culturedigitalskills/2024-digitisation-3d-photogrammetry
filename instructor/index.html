@@ -243,14 +243,17 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><h1 class="schedule-heading">Summary and Schedule</h1>
       
-
-<p>This is a new lesson built with <a href="https://carpentries.github.io/sandpaper-docs" class="external-link">The Carpentries
-Workbench</a>.</p>
+<div class="section level1">
+<h1 id="photogrammetry-3d-digitisation">Photogrammetry 3D Digitisation<a class="anchor" aria-label="anchor" href="#photogrammetry-3d-digitisation"></a></h1>
+<figure><img src="../fig/AdobeStock_101026418.jpeg" alt="3D media" class="figure mx-auto d-block"><figcaption>© Minerva Studio AdobeStock</figcaption></figure><p>This lesson is an introduction to the photogrammetry technique to
+create 3D models.</p>
+<p>The lesson presents basic background on this technique, as well as
+practical exercises to acquire a dataset for photogrammetry.</p>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-
+</div>
 
       <section id="schedule"><table class="table table schedule table-striped" role="presentation"><tbody><tr><td></td><td><a href="#setup">Setup Instructions</a></td><td> Download files required for the lesson</td>
           </tr><tr><td>
@@ -316,13 +319,95 @@ any links that you are not going to use.
  --></tbody></table><p>
       The actual schedule may vary slightly depending on the topics and exercises chosen by the instructor.
       </p>
-      </section><section id="setup"><p>The tutorial is built with <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">The Carpentries
+      </section><section id="setup"><section id="equipment"><h2 class="section-heading">Equipment<a class="anchor" aria-label="anchor" href="#equipment"></a>
+</h2>
+<hr class="half-width"><p>For photogrammetry you will need access to the minimum equipment.</p>
+<ul><li><p><strong>Digital camera</strong>: a compact or a digital single
+lens reflex (DSLR) camera can be used. Preferably you should use a
+camera that allows manual control.</p></li>
+<li><p><strong>Resolution</strong>: minimum resolution requirements are
+for a 5 MP camera. For better quality choose a camera with better
+resolution (e.g. 12 MP camera for professional quality).</p></li>
+<li><p><strong>Lens</strong>: Fixed lenses are preferred but if you have
+a variable lens, try not to zoom and define one focal length (to its
+maximum or minimal value right from the start). A focal length of 50mm
+(as the eyes see it) or higher would generally work well (generally it
+is preferable not to go below 35mm). For small objects a lens between
+60mm and 80mm would be an option or a macro lens could be used
+too.</p></li>
+</ul><p>The equipment below are optional but can speed the process if you
+want to digitise many objects:</p>
+<ul><li>
+<strong>Tripod</strong> can be used if using a turntable for stable
+camera placement or for shooting when light conditions do not allow to
+maintain an aperture speed above 1/60 of a second when holding it by
+hand.</li>
+<li>
+<strong>Remote control</strong> for the camera when an object needs
+to be rotated manually or the camera is placed away from the
+photographer.</li>
+<li>
+<strong>Turntable</strong> manual or automatic (which can be
+synchronized with the time of the camera shooting).</li>
+<li>
+<strong>Diffused artificial light</strong> to eliminate shadows as
+much as possible.</li>
+<li>
+<strong>Circular polarizing filter</strong> for reflective
+artefacts.</li>
+<li>
+<strong>Laptop or PC</strong> with at least 16GB RAM.</li>
+</ul></section><section id="software-required"><h2 class="section-heading">Software required<a class="anchor" aria-label="anchor" href="#software-required"></a>
+</h2>
+<hr class="half-width"><p>You will need access to:</p>
+<p>A software which allows you to batch converting raw images from the
+camera might be useful if you have been shooting in raw format. <a href="https://www.rawtherapee.com/" class="external-link">Raw Therapee</a> is a good
+option.</p>
+<p>An <strong>Image processing software</strong> such as <a href="https://www.gimp.org/" class="external-link">GIMP</a> will also allow you to manipulate
+and post-process textures generated after the model has been
+created.</p>
+<p>There are various options for <strong>photogrammetry
+software</strong>. The process for generating the 3D model will vary
+depending on the software used. Some options include:</p>
+<ul><li><a href="https://www.agisoft.com/" class="external-link">Metashape</a></li>
+<li><a href="https://alicevision.org" class="external-link">Meshroom</a></li>
+<li><a href="https://www.3dflow.net" class="external-link">3DF ZEPHYR</a></li>
+<li><a href="https://www.capturingreality.com" class="external-link">Reality Capture</a></li>
+</ul><p><a href="https://formlabs.com/blog/photogrammetry-guide-and-software-comparison/" class="external-link">Comparisons</a>
+between these softwares are available. In general, paid versions offer
+better support and are more user friendly, supporting a variety of
+scales, formats and workflows.</p>
+<p>We will use <a href="https://www.3dflow.net" class="external-link"><strong>3DFlow ZEPHYR
+software</strong></a>, which has the advantage of being user-friendly
+and provides various types of licenses such as the free educational one.
+Although there is a limitation of only being able to process 50 images
+for creating a 3D model.</p>
+</section><section id="datasets"><h2 class="section-heading">Datasets<a class="anchor" aria-label="anchor" href="#datasets"></a>
+</h2>
+<hr class="half-width"><p><strong>Indoor acquisition - camera static / move object</strong></p>
+<ul><li>Wooden case <a href="https://data.d4science.net/iBBZ" class="external-link">TIFF dataset
+(7.4GB)</a>
+</li>
+<li>Carved horse contains two datasets from different series of images:
+<ul><li><a href="https://data.d4science.net/GDnx" class="external-link">TIFF dataset 1
+(7.8GB)</a></li>
+<li><a href="https://data.d4science.net/Lg1t" class="external-link">TIFF dataset 2
+(22.3GB)</a></li>
+</ul></li>
+</ul><p><strong>Outdoor acquisition - static object / move
+camera</strong></p>
+<ul><li>Sculpture [<a href="https://data.d4science.net/rq8Y" class="external-link">TIFF dataset
+(8.9GB)</a>
+</li>
+<li><a href="https://data.d4science.net/eQRq" class="external-link">Sculpture on pedestal
+(9.6GB)</a></li>
+</ul><p>The tutorial is built with <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">The Carpentries
 Workbench</a>, as part of the training activities of the <a href="https://www.culturedigitalskills.org" class="external-link">AHRC-funded network service
 on Digital Skills in Visual and Material Culture</a>.</p>
-<figure><img src="https://culturedigitalskills.org/wp-content/uploads/colorcentre-1.png" style="width:50.0%" alt="logo" class="figure mx-auto d-block"></figure><!-- 
+<figure><img src="../fig/colorlogo_centre.png" style="width:50.0%" alt="logo" class="figure mx-auto d-block"></figure><!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
- --></section></main><nav class="bottom-pagination mx-md-4" aria-label="Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
+ --></section></section></main><nav class="bottom-pagination mx-md-4" aria-label="Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link float-end" href="../instructor/introduction.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
