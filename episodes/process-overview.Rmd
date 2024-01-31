@@ -123,15 +123,25 @@ The 3D model is created using what is know as triangulation. This process create
 
 ![Zooming into the triangles of the 3D model](fig/triangles.png){alt="triangulated model"}
 
-![aa](fig/rotatedmodel.mp4)
-https://example.com/rotatedmodel.mp4
-
-
 The texture is then mapped to this surface.
 
+![3D model with texture](fig/rotatedmodel.mp4)
 
+
+:::: challenge
+
+## Challenge: What does this all mean for me?
+
+Based on what you have seen, discuss
+with your group what are the key things to consider
+when selecting objects for photogrammetry,
+and deciding how to create a setup for 
+photographing the object or environment.
+
+::::
 
 ## Lessons for acquisition
+
 
 - Capture images with good texture.
 - Avoid completely texture-less, transparent and reflective images. The computer will have difficulty finding and matching features.
@@ -140,9 +150,7 @@ Structure reconstruction
 Load all extracted features from an initial pair of images. Builds a projection of the points in 3D space by using the camera position.
 
 
-The scene is incrementally extended by adding new images and triangulating new points. A much denser set of features is produced.
-The output of this process is a “point cloud” or a collection of points. The 3D model is created by creating a triangular mesh. The texture is then mapped to this surface.
- 
+
  
 
 
