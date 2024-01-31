@@ -1,31 +1,15 @@
 ---
 title: 'Photogrammetry Setup'
-teaching: 10
-exercises: 2
+teaching: 60
+exercises: 60
 ---
 
+:::::::::::::::::::::::::::::::::::::: questions 
 
-## Equipment
+Guidance on how to take images. This lessons relies heavily on
+learners practicing taking images of various objects.
 
-For photogrammetry you will need access to the minimum equipment.
-
-- **Digital camera**: a compact or a digital single lens reflex (DSLR) camera can be used. Preferably you should use a camera that allows manual control. 
-
-- **Resolution**: minimum resolution requirements are for a 5 MP camera. For better quality choose a camera with better resolution (e.g. 12 MP camera for professional quality).
-
-- **Lens**: Fixed lenses are preferred but if you have a variable lens, try not to zoom and define one focal length (to its maximum or minimal value right from the start). A focal length of 50mm (as the eyes see it) or higher would generally work well (generally it is preferable not to go below 35mm). For small objects a lens between 60mm and 80mm would be an option or a macro lens could be used too.
-
-The equipment below are optional but can speed the
-process if you want to digitise many objects:
-
-
--	**Tripod** can be used if using a turntable for stable camera placement or for shooting when light conditions do not allow to maintain an aperture speed above 1/60 of a second when holding it by hand. 
-- **Remote control** for the camera when an object needs to be rotated manually or the camera is placed away from the photographer.
-- **Turntable** manual or automatic (which can be synchronized with the time of the camera shooting).
-- **Diffused artificial light** to eliminate shadows as much as possible.
-- **Circular polarizing filter** for reflective artefacts.
-- **Laptop or PC** with at least 16GB RAM.
-- **Specialized photogrammetry software** to process data and export models (see below)
+:::::
 
 ## Camera considerations
 
@@ -48,7 +32,7 @@ Preferably shoot in **RAW** and in maximal resolution. JPG compression creates n
 ## Depth of field and focus
 You should consider always a **large depth of field** when possible as **good focus** especially on the subject is important. 
 
-![Depth-of-field](https://upload.wikimedia.org/wikipedia/commons/6/6f/Depth-of-field.svg)
+![Depth-of-field](https://upload.wikimedia.org/wikipedia/commons/6/6f/Depth-of-field.svg){width="60%"}
 
 Be careful to have all the important parts of the image in focus. Automatic focus can be used when you are rotating around the object, but you can set focus manually if you are using a turntable.
 
@@ -212,25 +196,34 @@ position.
 
 To avoid the software getting confused
 on the object moving but the background remaining static,
-you can use a box or cloth as a background. Black
-works best to avoid reflections. 
+you can use a box or cloth as a background. 
+
+Black or 
+white background work better as you want to avoid reflections
+onto the object and alter its colour. Black is always a safe choice.
+
+
+
+
 
 We will later mask the background, so that the software ignores it. To help with this, take an image of the setup
 without the object before placing the object. This will later become useful
 when applying the mask to the images.
 
-![Photo of setup without object.](fig/Box_PhotoMask.jpg)
+![Photo of setup without object.](fig/Box_PhotoMask.jpg){width="60%"}
 
 If artificial light is used, this should be diffused and should not create shadows. 
 
-![Diffused box for static objecst](fig/1024px-Light_Tent_DIY.jpg){alt="turntable"}
+![Diffused box for static objecst](fig/1024px-Light_Tent_DIY.jpg){alt="turntable" width="60%"}
 
-![Balkan Heritage Field School (photogrammetry course) at Stobi, Republic of Macedonia, Ivan.giogio, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Balkan_Heritage_Field_School-5.jpg) ](https://upload.wikimedia.org/wikipedia/commons/d/d3/Balkan_Heritage_Field_School-5.jpg){width="100%"}
+![Balkan Heritage Field School (photogrammetry course) at Stobi, Republic of Macedonia, Ivan.giogio, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Balkan_Heritage_Field_School-5.jpg) ](https://upload.wikimedia.org/wikipedia/commons/d/d3/Balkan_Heritage_Field_School-5.jpg){width="60%"}
 
 The camera should be placed at a height that allows to see all important features of the artefact (e.g. at an angle of 45 degrees above the object). 
 
 When you photograph, rotate the turntable in small
 increments.
+
+
 
 The advantage of this method is that you can have lower ISO and shutter speeds and thus sharper images (especially in indoor environments).
 
@@ -262,4 +255,18 @@ The advantage of this method is that it will allow you to acquire larger objects
 
 
 ![As the visualisation shows, the digitial photographs in this setup are more organic, as the photographer  moves taking more or less pictures where required.](fig/objstaticphotos.png){alt="static obj"}
+:::: challenge
 
+## Challenge: Taking photos
+
+***This activity can be done as a team***
+
+Experiment with both setups for photographing one or more objects relevant to your project.
+When doing this consider the best practices, including:
+
+- Best camera and area setup.
+- Adding scale to the images.
+- How many series of images you plan to acquire and what is the strategy to achieve this.
+
+
+:::: 
