@@ -4,12 +4,14 @@ teaching: 20
 exercises: 10
 ---
 
-:::::::::::::::::::::::::::::::::::::: questions 
+:::::::::::::::::::::::::::::::::::::: questions
 
-Introduces the basics of the photogrammetry technique, and its applications
+
+- Introduces the basics of the photogrammetry technique, and its applications
 in Cultural Heritage.
 
-::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 
 Photogrammetry is a techniques also known as Structure from Motion (SfM). 

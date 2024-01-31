@@ -6,10 +6,10 @@ exercises: 60
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-Guidance on how to take images. This lessons relies heavily on
-learners practicing taking images of various objects.
+- Guidance on how to take images. 
+- This lessons relies heavily on learners practicing taking images of various objects.
 
-:::::
+:::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Camera considerations
 

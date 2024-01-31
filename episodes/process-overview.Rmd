@@ -6,11 +6,11 @@ exercises: 5
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-Introduces the underlying methods used by the photogrammetry software. 
-This helps
-to understand the best practices to photograph objects and environments.
+- Introduces the underlying methods used by the photogrammetry software. 
+- This helps to understand the best practices to photograph objects and environments.
 
-:::::
+:::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 To create a photogrammetry, we can happily 
 ignore the concepts and formulas used in the software. 

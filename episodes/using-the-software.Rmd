@@ -6,10 +6,9 @@ exercises: 60
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-Explain step by step how to use the 3DFlow software to create
-a 3D model using the photograaphic images.
+- Explain step by step how to use the 3DFlow software to create a 3D model using the photograaphic images.
 
-:::::
+:::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Step 1: Preparing the images
 
