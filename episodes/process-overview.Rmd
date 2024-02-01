@@ -11,18 +11,14 @@ exercises: 5
 
 :::::::::::::::::::::::::::::::::::::::::::::::::
 
+To generate a photogrammetric model, we might choose to overlook the concepts and formulas utilised within the software to produce such a model. 
 
-To create a photogrammetry, we can happily 
-ignore the concepts and formulas used in the software. 
-
-However, it is very useful to be aware of how it works.
-This is because it allows us to asses the feasibility
-of objects being succesfully acquired, and 
-tricks we could use to maximise our chances of success.
-
+Yet, understanding its functioning can be highly beneficial. Such understanding enables us to evaluate the feasibility of successfully acquiring objects and identify strategies to enhance our chances of success.
 
 
 ## Basic steps 
+
+The basic steps of photogrammetric processing are: 
 
 1. Feature detection
 2. Feature matching
@@ -71,7 +67,7 @@ What makes this image different from the one before?
 Which points would you choose in this image of a silver mug?
 
 
-![Silver mugs created by Adrian Bancker (1703-1772) between 1731-1750. Currently held by the Museum of the City of New York. &copy; Adrian Bancker at [Wikimedia](https://commons.wikimedia.org/wiki/File:Mug_Adrian_Bancker.jpg)](fig/Mug_Adrian_Bancker.jpg){alt="mugs"}{width="60%"}
+![Silver mugs created by Adrian Bancker (1703-1772) between 1731-1750. Currently held by the Museum of the City of New York. &copy; Adrian Bancker at [Wikimedia](https://commons.wikimedia.org/wiki/File:Mug_Adrian_Bancker.jpg)](fig/Mug_Adrian_Bancker.jpg){alt="mugs" width="60%"}
 
 Does this share the same challenges with any of the images
 above?
@@ -82,9 +78,7 @@ above?
 The goal of this step is to find correspondences 
 of features across different views. 
 
-The software will attempt to match features in two or 
-more images
-or more ideally. 
+The software will attempt to match features in two or more images, ideally seeking a reliable outcome. 
 We want a reliable result.
 
 
@@ -104,6 +98,7 @@ Do the features below correspond with each other?
  
 
 ## Structure reconstruction
+
 
 Taking into account all identified features in a 
 pair of images,
@@ -138,22 +133,21 @@ The texture is then mapped to this surface.
 
 ## Challenge: What does this all mean for me?
 
-Based on what you have seen, discuss
-with your group what are the key things to consider
-when selecting objects for photogrammetry,
-and deciding how to create a setup for 
-photographing the object or environment.
+Based on what you have seen, 
+reflect on what are the 
+key things to consider when selecting objects for photogrammetry. 
+
+Which of the objects you work with would be the best candidates for photogrammetry and which would not be ideal? 
 
 ::::
 
-## Lessons for acquisition
+## Acquisition tips
 
 
 - Capture images with good texture.
 - Avoid completely texture-less, transparent and reflective images. The computer will have difficulty finding and matching features.
-- If the scene does not contain enough texture itself, you could place additional background objects, such as posters, etc.
-Structure reconstruction
-Load all extracted features from an initial pair of images. Builds a projection of the points in 3D space by using the camera position.
+- If the scene does not contain enough texture itself, you could place additional background objects, such as posters, newspapers, small objects etc. 
+
 
 
 

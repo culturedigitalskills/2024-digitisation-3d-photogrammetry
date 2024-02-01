@@ -22,7 +22,7 @@ not shooting using RAW settings, you can skip this step.
 
 
 Usually, the uncompressed TIFF or TIF file format 
-is a good choice, as it is uncompressed retaining a good quality. JPEGs are compressed format, and although
+is a good choice, as it is uncompressed retaining a good quality. JPEGs have a compressed format, and although
 faster to handle might provide less data for
 feature recognition.
 
@@ -34,8 +34,8 @@ the software projecting feature detected into 3D points.
 You can check EXIF information online, for example using [ExifInfo.org](https://exifinfo.org/). 
 
 
-For this lesson we provide
-images in TIFF and JPEG format:
+For this lesson, we provide
+images in [TIFF and JPEG format][datasets].
 
 
 
@@ -66,7 +66,7 @@ to [3DF Zephyr](https://www.3dflow.net/3df-zephyr-photogrammetry-software/).
 
 Go to the workflow menu and choose **New Project**, you will be presented with a *"New project wizard window"*.
 
-Choose the first box *Sparse* in order to go through the all process manually. 
+Choose the first box *Sparse* in order to go through the whole process manually. 
 
 Click **Next>** you will be presented with the *"Photos selection page"*.
  
@@ -87,8 +87,8 @@ If you have a separate Exif file for calibrating the camera you can add it here,
 
 Masking allows the software to concentrate in
 the most important information which is the
-object you want to acquire. It works best
-when using the camera static / objects moves setup.
+object you have acquired. It works best
+when using the "static camera / object moves" setup.
 
 
 In the *"Photos selection page"* there is an option to import the mask.
@@ -113,8 +113,10 @@ sample image provided in the dataset as a first file.
 
 ## Step 5: Aligning photos
 
-The next step is to align the photos. This step will
-perform the three steps: feature detection, feature matching and the first stage of the structure reconstruction step.
+The next step is to align the photos. 
+
+This step will
+perform the three substeps: feature detection, feature matching and the first stage of the structure reconstruction step.
 
 In the software, you will be presented with the *"Camera orientation page"*. Keep the general setting and click **Next>**. 
 
@@ -123,7 +125,7 @@ More details about how to manipulate these and the following steps by selecting 
 
 To start the reconstruction, click **Run** in the *"Start reconstruction"* page.
 
-You will be presented with the *"Reconstruction Successful page"*. Click **Finish**
+You will be presented with the *"Reconstruction Successful page"*. Click **Finish**.
 
 Save the project in your project folder.
 
@@ -131,10 +133,10 @@ Save the project in your project folder.
 Once the camera orientation phase has been completed, the sparse point cloud will appear in the workspace as well as the oriented cameras identified by blue pyramids.
 
 
-Now you can familiarize yourself with the 
+Now you can familiarise yourself with the 
 navigation of the 3D space and the interface. 
 
-For example, go to **Scene-> Bounding Box-> Edit Bounding box** and limit the created 
+For example, go to **Scene > Bounding Box > Edit Bounding box** and limit the created 
 sparse cloud within the bounding box. 
 
 This will speed up the process when creating the final mesh.
@@ -143,7 +145,7 @@ This will speed up the process when creating the final mesh.
 
 ## Step 6: Build a dense point cloud 
 
-Go to *Workflow* in the menu and select *Advanced-> Dense Point Cloud Generation*.
+Go to**Workflow**in the menu and select **Advanced > Dense Point Cloud Generation**.
 
 You will be presented with the  *"Dense Point Cloud Generation wizard"*. **Select All Cameras** and click **Next>**
 
@@ -173,14 +175,14 @@ Once happy save the project.
 
 ## Step 8: Building the 3D model
 
-Go to *Workflow* in the menu and select *Advanced-> Mesh Extraction*
+Go to**Workflow**in the menu and select **Advanced > Mesh Extraction**
 
 You will be presented with the *"Mesh Generation wizard"*. 
 
-Select from the **drop down** the name of your
+Select from the *drop down* the name of your
 dense point cloud. **Select All Cameras** and click **Next>**
 
-Leave the general settings on the *"Surface Reconstruction"* page and click **Next>**.
+Leave the general settings on the *"Surface Reconstruction"* page and click **Next>**
 
 Click **Run** on the*"Start Mesh Creation"* page. 
 
@@ -194,11 +196,11 @@ Save the project.
 
 The final step is to re-project the texture onto the 3D surface. 
 
-Go to *Workflow* in the menu and select *Textured Mesh Generation*.
+Go to**Workflow**in the menu and select **Textured Mesh Generation**.
 
-You will be presented with the  *"Textured Mesh Generation wizard"*. In the **drop down** menu select the name of your mesh. **Select All Cameras** and click **Next>**.
+You will be presented with the  *"Textured Mesh Generation wizard"*. In the *drop down* menu select the name of your mesh. **Select All Cameras** and click **Next>**
 
-Leave the general settings in the *"Texturing"* page and click **Next>**.
+Leave the general settings in the *"Texturing"* page and click **Next>**
 
  Click **Run** on the *"Textured Mesh Generation wizard"* page.
  
@@ -231,33 +233,31 @@ It is good practice to name your models with information, for example:
 		ResourceIDofObjectifExistent_NameofObject_DateModelCreatedYY.MM.DD.[highres|medres|lowres]
 ```
 
-Go to *Export* in the menu and select *Export Textured Mesh*. 
+Go to **Export** in the menu and select **Export Textured Mesh**. 
 
-Select from the **drop down**, the name of your mesh. 
+Select from the *drop down*, the name of your mesh. 
 
-Select from the **drop down** your preferred format and click **Export**.
+Select from the *drop down* your preferred format and click **Export**.
 
 To export the model at a lower resolution select your textured mesh in the right window *"Textured Meshes"*.
 **Right Click** on it and select **Clone**. 
 A copy of your mesh will be created.
 
-Go to *Tools* in the menu and select *Mesh Filters-> Decimatiom*. You will be presented with the *"Mesh decimation"* small window. 
+Go to **Tools** in the menu and select **Mesh Filters > Decimation**. You will be presented with the *"Mesh decimation"* window. 
 
-Select in the **drop down** menu the name of your cloned mesh. Select *preserve boundaries* and *Apply Filter*
+Select in the *drop down* menu the name of your cloned mesh. Select **preserve boundaries** and **Apply Filter**.
 
 At this point, we need to regenerate the texture for the lower-resolution mesh. To do so we need to repeat the process above for generating the texture.
 
-Go to *Export* in the menu and select *Export Textured Mesh*. Select in the **drop down** menu the name of your second mesh. 
+Go to **Export** in the menu and select **Export Textured Mesh**. Select in the *drop down* menu the name of your second mesh. 
 
 For web sharing GLTF is a good format to use.
-**drop down** the format ***.glb*** or ***.gltf*** and click **Export**.
+Select from *drop down* menu the format ***.glb*** or ***.gltf*** and click **Export**.
 
 
 <iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&model=https://data.d4science.org/shub/E_azJzMVp6MENORnRUd0FEdElCa3g5WVBIdEQ5cldBUlJwOHkyYjRITHpTYmVUcFdIUDc1VzRhWTFGdWc5SytNVA==" style="width: 100%;" height="400px" bgColor="#dbdbdb" frameBorder="0"></iframe>
 
 
-
-## Adding real-world scale
 
 
 :::: challenge
@@ -266,7 +266,7 @@ For web sharing GLTF is a good format to use.
 
 ***This activity can be done as a team***
 
-By using the images you captured in the last lesson,
+By using the images you captured during the lesson,
 use the software to create a 3D model. 
 
 Produce two versions: a high-resolution and a low-resolution and save on your PC.

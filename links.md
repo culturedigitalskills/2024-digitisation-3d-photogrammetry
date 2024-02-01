@@ -8,3 +8,7 @@ any links that you are not going to use.
 [rstudio]: https://www.rstudio.com/
 [carpentries-workbench]: https://carpentries.github.io/sandpaper-docs/
 
+[equipment]: setup.Rmd#equipment
+[datasets]: setup.Rmd#datasets
+[ZEPHYR]: https://www.3dflow.net
+
