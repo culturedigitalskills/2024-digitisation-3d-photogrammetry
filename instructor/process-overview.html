@@ -170,7 +170,7 @@
 <li><a href="#feature-detection">Feature detection</a></li>
 <li><a href="#feature-matching">Feature matching</a></li>
 <li><a href="#structure-reconstruction">Structure reconstruction</a></li>
-<li><a href="#lessons-for-acquisition">Lessons for acquisition</a></li>
+<li><a href="#acquisition-tips">Acquisition tips</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
         
@@ -262,7 +262,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Process Overview</h1>
-        <p>Last updated on 2024-01-31 |
+        <p>Last updated on 2024-02-01 |
         
         <a href="https://github.com/culturedigitalskills/2024-digitisation-3d-photogrammetry/edit/main/episodes/process-overview.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -276,15 +276,17 @@
 
         
 
-<p>To create a photogrammetry, we can happily ignore the concepts and
-formulas used in the software.</p>
-<p>However, it is very useful to be aware of how it works. This is
-because it allows us to asses the feasibility of objects being
-succesfully acquired, and tricks we could use to maximise our chances of
+<p>To generate a photogrammetric model, we might choose to overlook the
+concepts and formulas utilised within the software to produce such a
+model.</p>
+<p>Yet, understanding its functioning can be highly beneficial. Such
+understanding enables us to evaluate the feasibility of successfully
+acquiring objects and identify strategies to enhance our chances of
 success.</p>
 <section id="basic-steps"><h2 class="section-heading">Basic steps<a class="anchor" aria-label="anchor" href="#basic-steps"></a>
 </h2>
-<hr class="half-width"><ol style="list-style-type: decimal"><li>Feature detection</li>
+<hr class="half-width"><p>The basic steps of photogrammetric processing are:</p>
+<ol style="list-style-type: decimal"><li>Feature detection</li>
 <li>Feature matching</li>
 <li>Structure reconstruction</li>
 </ol></section><section id="feature-detection"><h2 class="section-heading">Feature detection<a class="anchor" aria-label="anchor" href="#feature-detection"></a>
@@ -333,8 +335,9 @@ Jeangagnon at <a href="https://commons.wikimedia.org/wiki/File:Edifice_Shaughnes
 </h3>
 <div class="callout-content">
 <p>Which points would you choose in this image of a silver mug?</p>
-<p><img src="../fig/Mug_Adrian_Bancker.jpg" alt="mugs" class="figure">{width=“60%”}</p>
-<p>Does this share the same challenges with any of the images above?</p>
+<figure><img src="../fig/Mug_Adrian_Bancker.jpg" style="width:60.0%" alt="mugs" class="figure mx-auto d-block"><figcaption>Silver mugs created by Adrian Bancker (1703-1772)
+between 1731-1750. Currently held by the Museum of the City of New York.
+© Adrian Bancker at <a href="https://commons.wikimedia.org/wiki/File:Mug_Adrian_Bancker.jpg" class="external-link">Wikimedia</a></figcaption></figure><p>Does this share the same challenges with any of the images above?</p>
 </div>
 </div>
 </div>
@@ -342,8 +345,8 @@ Jeangagnon at <a href="https://commons.wikimedia.org/wiki/File:Edifice_Shaughnes
 </h2>
 <hr class="half-width"><p>The goal of this step is to find correspondences of features across
 different views.</p>
-<p>The software will attempt to match features in two or more images or
-more ideally. We want a reliable result.</p>
+<p>The software will attempt to match features in two or more images,
+ideally seeking a reliable outcome. We want a reliable result.</p>
 <figure><img src="../fig/feature_matching.png" style="width:60.0%" alt="Features matched" class="figure mx-auto d-block"><figcaption>View of features matched by Metashape photogrammetry
 software on a dataset of a coloured carboard box. Blue lines display
 valid matches, and red lines display invalid matches.</figcaption></figure><div id="challenge-try-it-yourself-3" class="callout discussion">
@@ -382,23 +385,21 @@ process creates a 3D model with thousands or millions of triangles.</p>
 me?<a class="anchor" aria-label="anchor" href="#challenge-what-does-this-all-mean-for-me"></a>
 </h3>
 <div class="callout-content">
-<p>Based on what you have seen, discuss with your group what are the key
-things to consider when selecting objects for photogrammetry, and
-deciding how to create a setup for photographing the object or
-environment.</p>
+<p>Based on what you have seen, reflect on what are the key things to
+consider when selecting objects for photogrammetry.</p>
+<p>Which of the objects you work with would be the best candidates for
+photogrammetry and which would not be ideal?</p>
 </div>
 </div>
 </div>
-</section><section id="lessons-for-acquisition"><h2 class="section-heading">Lessons for acquisition<a class="anchor" aria-label="anchor" href="#lessons-for-acquisition"></a>
+</section><section id="acquisition-tips"><h2 class="section-heading">Acquisition tips<a class="anchor" aria-label="anchor" href="#acquisition-tips"></a>
 </h2>
 <hr class="half-width"><ul><li>Capture images with good texture.</li>
 <li>Avoid completely texture-less, transparent and reflective images.
 The computer will have difficulty finding and matching features.</li>
 <li>If the scene does not contain enough texture itself, you could place
-additional background objects, such as posters, etc. Structure
-reconstruction Load all extracted features from an initial pair of
-images. Builds a projection of the points in 3D space by using the
-camera position.</li>
+additional background objects, such as posters, newspapers, small
+objects etc.</li>
 </ul><!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
@@ -460,8 +461,8 @@ any links that you are not going to use.
   "url": "https://culturedigitalskills.github.io/2024-digitisation-3d-photogrammetry/instructor/process-overview.html",
   "identifier": "https://culturedigitalskills.github.io/2024-digitisation-3d-photogrammetry/instructor/process-overview.html",
   "dateCreated": "2024-01-28",
-  "dateModified": "2024-01-31",
-  "datePublished": "2024-01-31"
+  "dateModified": "2024-02-01",
+  "datePublished": "2024-02-01"
 }
 
   </script><script>

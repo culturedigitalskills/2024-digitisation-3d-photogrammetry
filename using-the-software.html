@@ -194,7 +194,6 @@
 <li><a href="#step-8-building-the-3d-model">Step 8: Building the 3D model</a></li>
 <li><a href="#step-9-building-the-raster-texture">Step 9: Building the raster texture</a></li>
 <li><a href="#step-10-exporting-the-3d-model">Step 10: Exporting the 3D model</a></li>
-<li><a href="#adding-real-world-scale">Adding real-world scale</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
         
@@ -268,7 +267,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Software Workflow</h1>
-        <p>Last updated on 2024-01-31 |
+        <p>Last updated on 2024-02-01 |
         
         <a href="https://github.com/culturedigitalskills/2024-digitisation-3d-photogrammetry/edit/main/episodes/using-the-software.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -289,7 +288,7 @@ the images from the raw file format to a format supported by the
 photogrammetry software. If you were not shooting using RAW settings,
 you can skip this step.</p>
 <p>Usually, the uncompressed TIFF or TIF file format is a good choice,
-as it is uncompressed retaining a good quality. JPEGs are compressed
+as it is uncompressed retaining a good quality. JPEGs have a compressed
 format, and although faster to handle might provide less data for
 feature recognition.</p>
 <p>In any case, you must be sure you choose a format that retains the
@@ -297,7 +296,7 @@ EXIF information within the file. This is because it contains useful
 information for the software projecting feature detected into 3D
 points.</p>
 <p>You can check EXIF information online, for example using <a href="https://exifinfo.org/" class="external-link">ExifInfo.org</a>.</p>
-<p>For this lesson we provide images in TIFF and JPEG format:</p>
+<p>For this lesson, we provide images in <a href="index.html#datasets">TIFF and JPEG format</a>.</p>
 </section><section id="step-2-organising-your-workspace"><h2 class="section-heading">Step 2: Organising your workspace<a class="anchor" aria-label="anchor" href="#step-2-organising-your-workspace"></a>
 </h2>
 <hr class="half-width"><p>We will start by creating a structure to store all the files for your
@@ -314,7 +313,7 @@ project.</p>
 Zephyr</a>.</p>
 <p>Go to the workflow menu and choose <strong>New Project</strong>, you
 will be presented with a <em>“New project wizard window”</em>.</p>
-<p>Choose the first box <em>Sparse</em> in order to go through the all
+<p>Choose the first box <em>Sparse</em> in order to go through the whole
 process manually.</p>
 <p>Click <strong>Next&gt;</strong> you will be presented with the
 <em>“Photos selection page”</em>.</p>
@@ -331,8 +330,8 @@ add it here, and you can also manually calibrate your camera in the
 <figure><img src="fig/Box_Photo.jpg" alt="photo" class="figure mx-auto d-block"><figcaption>Image from photogrammetry acquistion.</figcaption></figure></section><section id="step-4-importing-masks-optional"><h2 class="section-heading">Step 4: Importing masks (optional)<a class="anchor" aria-label="anchor" href="#step-4-importing-masks-optional"></a>
 </h2>
 <hr class="half-width"><p>Masking allows the software to concentrate in the most important
-information which is the object you want to acquire. It works best when
-using the camera static / objects moves setup.</p>
+information which is the object you have acquired. It works best when
+using the “static camera / object moves” setup.</p>
 <p>In the <em>“Photos selection page”</em> there is an option to import
 the mask.</p>
 <p>If selected a new option will be presented and a new tool called
@@ -347,9 +346,9 @@ into the software</figcaption></figure><p>But you can use a sample image provide
 file.</p>
 </section><section id="step-5-aligning-photos"><h2 class="section-heading">Step 5: Aligning photos<a class="anchor" aria-label="anchor" href="#step-5-aligning-photos"></a>
 </h2>
-<hr class="half-width"><p>The next step is to align the photos. This step will perform the
-three steps: feature detection, feature matching and the first stage of
-the structure reconstruction step.</p>
+<hr class="half-width"><p>The next step is to align the photos.</p>
+<p>This step will perform the three substeps: feature detection, feature
+matching and the first stage of the structure reconstruction step.</p>
 <p>In the software, you will be presented with the <em>“Camera
 orientation page”</em>. Keep the general setting and click
 <strong>Next&gt;</strong>.</p>
@@ -359,22 +358,22 @@ manual</a>.</p>
 <p>To start the reconstruction, click <strong>Run</strong> in the
 <em>“Start reconstruction”</em> page.</p>
 <p>You will be presented with the <em>“Reconstruction Successful
-page”</em>. Click <strong>Finish</strong></p>
+page”</em>. Click <strong>Finish</strong>.</p>
 <p>Save the project in your project folder.</p>
 <p>Once the camera orientation phase has been completed, the sparse
 point cloud will appear in the workspace as well as the oriented cameras
 identified by blue pyramids.</p>
-<p>Now you can familiarize yourself with the navigation of the 3D space
+<p>Now you can familiarise yourself with the navigation of the 3D space
 and the interface.</p>
-<p>For example, go to <strong>Scene-&gt; Bounding Box-&gt; Edit Bounding
+<p>For example, go to <strong>Scene &gt; Bounding Box &gt; Edit Bounding
 box</strong> and limit the created sparse cloud within the bounding
 box.</p>
 <p>This will speed up the process when creating the final mesh.</p>
 <figure><img src="fig/Box_High_PointCloud.jpg" alt="pointcloud" class="figure mx-auto d-block"><figcaption>Sparse point cloud generated by 3DFlow ZEPHYR
 software</figcaption></figure></section><section id="step-6-build-a-dense-point-cloud"><h2 class="section-heading">Step 6: Build a dense point cloud<a class="anchor" aria-label="anchor" href="#step-6-build-a-dense-point-cloud"></a>
 </h2>
-<hr class="half-width"><p>Go to <em>Workflow</em> in the menu and select <em>Advanced-&gt;
-Dense Point Cloud Generation</em>.</p>
+<hr class="half-width"><p>Go to<strong>Workflow</strong>in the menu and select <strong>Advanced
+&gt; Dense Point Cloud Generation</strong>.</p>
 <p>You will be presented with the <em>“Dense Point Cloud Generation
 wizard”</em>. <strong>Select All Cameras</strong> and click
 <strong>Next&gt;</strong></p>
@@ -399,14 +398,14 @@ deleted them with the delete key.</p>
 <p>Once happy save the project.</p>
 </section><section id="step-8-building-the-3d-model"><h2 class="section-heading">Step 8: Building the 3D model<a class="anchor" aria-label="anchor" href="#step-8-building-the-3d-model"></a>
 </h2>
-<hr class="half-width"><p>Go to <em>Workflow</em> in the menu and select <em>Advanced-&gt; Mesh
-Extraction</em></p>
+<hr class="half-width"><p>Go to<strong>Workflow</strong>in the menu and select <strong>Advanced
+&gt; Mesh Extraction</strong></p>
 <p>You will be presented with the <em>“Mesh Generation wizard”</em>.</p>
-<p>Select from the <strong>drop down</strong> the name of your dense
-point cloud. <strong>Select All Cameras</strong> and click
+<p>Select from the <em>drop down</em> the name of your dense point
+cloud. <strong>Select All Cameras</strong> and click
 <strong>Next&gt;</strong></p>
 <p>Leave the general settings on the <em>“Surface Reconstruction”</em>
-page and click <strong>Next&gt;</strong>.</p>
+page and click <strong>Next&gt;</strong></p>
 <p>Click <strong>Run</strong> on the<em>“Start Mesh Creation”</em>
 page.</p>
 <p>When finished you will see the <em>“Mesh Creation successful”</em>
@@ -416,14 +415,14 @@ model.</p>
 <figure><img src="fig/Box_High_Wireframe.jpg" style="width:50.0%" alt="3D model" class="figure mx-auto d-block"><figcaption>3D model generated by 3DFlow ZEPHYR software</figcaption></figure></section><section id="step-9-building-the-raster-texture"><h2 class="section-heading">Step 9: Building the raster texture<a class="anchor" aria-label="anchor" href="#step-9-building-the-raster-texture"></a>
 </h2>
 <hr class="half-width"><p>The final step is to re-project the texture onto the 3D surface.</p>
-<p>Go to <em>Workflow</em> in the menu and select <em>Textured Mesh
-Generation</em>.</p>
+<p>Go to<strong>Workflow</strong>in the menu and select <strong>Textured
+Mesh Generation</strong>.</p>
 <p>You will be presented with the <em>“Textured Mesh Generation
-wizard”</em>. In the <strong>drop down</strong> menu select the name of
-your mesh. <strong>Select All Cameras</strong> and click
-<strong>Next&gt;</strong>.</p>
+wizard”</em>. In the <em>drop down</em> menu select the name of your
+mesh. <strong>Select All Cameras</strong> and click
+<strong>Next&gt;</strong></p>
 <p>Leave the general settings in the <em>“Texturing”</em> page and click
-<strong>Next&gt;</strong>.</p>
+<strong>Next&gt;</strong></p>
 <p>Click <strong>Run</strong> on the <em>“Textured Mesh Generation
 wizard”</em> page.</p>
 <p>When finished you will see the <em>“Textured Mesh Generation wizard
@@ -442,35 +441,33 @@ low-resolution 3D model for sharing and making available on the web.</p>
 <p>It is good practice to name your models with information, for
 example:</p>
 <pre><code><span>    <span class="va">ResourceIDofObjectifExistent_NameofObject_DateModelCreatedYY.MM.DD.</span><span class="op">[</span><span class="va">highres</span><span class="op">|</span><span class="va">medres</span><span class="op">|</span><span class="va">lowres</span><span class="op">]</span></span></code></pre>
-<p>Go to <em>Export</em> in the menu and select <em>Export Textured
-Mesh</em>.</p>
-<p>Select from the <strong>drop down</strong>, the name of your
-mesh.</p>
-<p>Select from the <strong>drop down</strong> your preferred format and
-click <strong>Export</strong>.</p>
+<p>Go to <strong>Export</strong> in the menu and select <strong>Export
+Textured Mesh</strong>.</p>
+<p>Select from the <em>drop down</em>, the name of your mesh.</p>
+<p>Select from the <em>drop down</em> your preferred format and click
+<strong>Export</strong>.</p>
 <p>To export the model at a lower resolution select your textured mesh
 in the right window <em>“Textured Meshes”</em>. <strong>Right
 Click</strong> on it and select <strong>Clone</strong>. A copy of your
 mesh will be created.</p>
-<p>Go to <em>Tools</em> in the menu and select <em>Mesh Filters-&gt;
-Decimatiom</em>. You will be presented with the <em>“Mesh
-decimation”</em> small window.</p>
-<p>Select in the <strong>drop down</strong> menu the name of your cloned
-mesh. Select <em>preserve boundaries</em> and <em>Apply Filter</em></p>
+<p>Go to <strong>Tools</strong> in the menu and select <strong>Mesh
+Filters &gt; Decimation</strong>. You will be presented with the
+<em>“Mesh decimation”</em> window.</p>
+<p>Select in the <em>drop down</em> menu the name of your cloned mesh.
+Select <strong>preserve boundaries</strong> and <strong>Apply
+Filter</strong>.</p>
 <p>At this point, we need to regenerate the texture for the
 lower-resolution mesh. To do so we need to repeat the process above for
 generating the texture.</p>
-<p>Go to <em>Export</em> in the menu and select <em>Export Textured
-Mesh</em>. Select in the <strong>drop down</strong> menu the name of
-your second mesh.</p>
-<p>For web sharing GLTF is a good format to use. <strong>drop
-down</strong> the format <strong><em>.glb</em></strong> or
+<p>Go to <strong>Export</strong> in the menu and select <strong>Export
+Textured Mesh</strong>. Select in the <em>drop down</em> menu the name
+of your second mesh.</p>
+<p>For web sharing GLTF is a good format to use. Select from <em>drop
+down</em> menu the format <strong><em>.glb</em></strong> or
 <strong><em>.gltf</em></strong> and click <strong>Export</strong>.</p>
 <iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&amp;model=https://data.d4science.org/shub/E_azJzMVp6MENORnRUd0FEdElCa3g5WVBIdEQ5cldBUlJwOHkyYjRITHpTYmVUcFdIUDc1VzRhWTFGdWc5SytNVA==" style="width: 100%;" height="400px" bgcolor="#dbdbdb" frameborder="0">
 </iframe>
-</section><section id="adding-real-world-scale"><h2 class="section-heading">Adding real-world scale<a class="anchor" aria-label="anchor" href="#adding-real-world-scale"></a>
-</h2>
-<hr class="half-width"><div id="challenge-processing-the-photos-and-creating-a-3d-model" class="callout discussion">
+<div id="challenge-processing-the-photos-and-creating-a-3d-model" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
@@ -480,7 +477,7 @@ a 3D model<a class="anchor" aria-label="anchor" href="#challenge-processing-the-
 </h3>
 <div class="callout-content">
 <p><strong><em>This activity can be done as a team</em></strong></p>
-<p>By using the images you captured in the last lesson, use the software
+<p>By using the images you captured during the lesson, use the software
 to create a 3D model.</p>
 <p>Produce two versions: a high-resolution and a low-resolution and save
 on your PC.</p>
@@ -549,8 +546,8 @@ any links that you are not going to use.
   "url": "https://culturedigitalskills.github.io/2024-digitisation-3d-photogrammetry/using-the-software.html",
   "identifier": "https://culturedigitalskills.github.io/2024-digitisation-3d-photogrammetry/using-the-software.html",
   "dateCreated": "2024-01-28",
-  "dateModified": "2024-01-31",
-  "datePublished": "2024-01-31"
+  "dateModified": "2024-02-01",
+  "datePublished": "2024-02-01"
 }
 
   </script><script>
