@@ -54,15 +54,15 @@ a 3D model.
 
 **Indoor acquisition - camera static / move object**
 
-- Wooden case [TIFF dataset (7.4GB)](https://data.d4science.net/iBBZ) 
+- Wooden case [TIFF dat aset (7.4 GB)](https://data.d4science.net/iBBZ) and [JPEG dataset (1 GB)](https://data.d4science.net/xDSW)
 - Carved horse contains two datasets from different series of images:
-  - [TIFF dataset 1 (7.8GB)](https://data.d4science.net/GDnx)
-  - [TIFF dataset 2 (22.3GB)](https://data.d4science.net/Lg1t) 
+  - [TIFF data set 1 (7.8 GB)](https://data.d4science.net/GDnx) and [JPEG data set 1 (1 GB)](https://data.d4science.net/Fvaf)
+  - [TIFF data set 2 (22.3 GB)](https://data.d4science.net/Lg1t) and [JPEG data set 2 (3 GB)](https://data.d4science.net/UPgE)
 
 **Outdoor acquisition - static object / move camera**
 
-- Sculpture [[TIFF dataset (8.9GB)](https://data.d4science.net/rq8Y) 
-- [Sculpture on pedestal (9.6GB) ](https://data.d4science.net/eQRq) 
+- Body sized sculpture in garden [TIFF data set (8.9 GB)](https://data.d4science.net/rq8Y) and [JPEG data set (980 MB)](https://data.d4science.net/xDSW) and [JPEG data set (4.2 GB)](https://data.d4science.net/qvGM)
+- Queen Victoria statue on pedestal [TIFF data set (9.6GB)](https://data.d4science.net/eQRq) and [JPEG data set (8.9GB)](https://data.d4science.net/S9r6)
 
 
 The tutorial is built with [The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs/), as part of the training activities of the [AHRC-funded network service on Digital Skills in Visual and Material Culture](https://www.culturedigitalskills.org). 
