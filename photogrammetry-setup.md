@@ -36,7 +36,7 @@ You should consider always a **large depth of field** when possible as **good fo
 
 Be careful to have all the important parts of the image in focus. Automatic focus can be used when you are rotating around the object, but you can set focus manually if you are using a turntable.
 
-For a better explanation on how **depth of field** works in conjunction with **aperture, focal length and focus distance** you can refer to the website 
+For a better explanation on how **depth of field** works in conjunction with **aperture, focal length and focus distance** you can refer to the websites mentioned below.
 
 **Example of settings**: f/8, ISO 400, shutter speed 1/30 and if light isn’t enough you can increase ISO to 800 OR lower shutter speed to 1/15 (remember that any shutter speed that is lower than 1/60 requires a tripod). Please note that these are just examples and you should check exposure for every acquisition depending on current light conditions.
 
@@ -51,16 +51,18 @@ More information:
 
 Before embarking on photogrammetry, consider the
 object you want to digitise and the space available
-to do this. You might want to ask yourself?
+to do this. You might want to ask yourself:
 
 - Does the object has enough texture for the
 software to find enough features?
 - If outdoors, is the building or environment
 in a busy area with passers by or lots of foliage?
-- Will I use artificial or natural light to best 
+- Will I use natural or artificial or natural light to best 
 illuminate the object?
 - What equipment will I need with me if I need
-to travel to perform the digitisation?
+to travel to perform the digitisation, what will
+I have access once I am on site (e.g. power to
+recharge batteries)?
 
 
 Overall, the recommendation is to **avoid plain and monotonous surfaces**. Flat, shiny, transparent, very thin artefacts and textures such as fur, hair won’t be the ideal candidates for photogrammetry. 
@@ -142,7 +144,7 @@ it might not be possible as illustrated below.
 
 ![Shadows created by the sunlight on  Saint Viktor of Xanten Church, Dülmen, North Rhine-Westphalia, Germany, Public domain, Dietmar Rabich , under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_St.-Viktor-Kirche_--_2014_--_0076.jpg)](https://upload.wikimedia.org/wikipedia/commons/b/b7/D%C3%BClmen%2C_St.-Viktor-Kirche_--_2014_--_0076.jpg){width="50%"}
 
-![Overcast lighting on Statue of Queen Victoria, Brighto](fig/QueenVictoria_Photo.jpg){width="50%"}
+![Overcast lighting on Statue of Queen Victoria, Brighton](fig/QueenVictoria_Photo.jpg){width="50%"}
 
 
 For
@@ -184,15 +186,14 @@ control the camera remotely to avoid small
 movements which can be caused by your hand
 pushing the trigger.
 
-![Static camera / move object](fig/staticcam.svg){alt="static camera"}
+![Static camera / move object](fig/staticcam.svg){alt="static camera"Before you start}
 
 
 
-The object is then placed on a turntable.
-Ideally, a turntable which is controlled remotely
-works best. As again, you want to minimise
-movements caused unintentionally on the object's
-position.
+The object is placed on a turntable.
+A turntable which is controlled remotely
+works best. Again, you want to minimise movements caused unintentionally on the object's position.
+
 
 To avoid the software getting confused
 on the object moving but the background remaining static,
@@ -200,10 +201,7 @@ you can use a box or cloth as a background.
 
 Black or 
 white background work better as you want to avoid reflections
-onto the object and alter its colour. Black is always a safe choice.
-
-
-
+onto the object and alter its colour. Black is always a safe choice, unless the object is dark. In such case, it is best to use a white background.
 
 
 We will later mask the background, so that the software ignores it. To help with this, take an image of the setup
@@ -243,7 +241,7 @@ the photographer moves around it
 taking pictures. 
 
 
-![Static object / move camera](fig/staticobj.svg){alt="static object"}
+![Static object / move camera](fig/staticobj.svg){alt="static object" width="60%"}
 
 
 Place the item at a good height so that it 
@@ -255,6 +253,7 @@ The advantage of this method is that it will allow you to acquire larger objects
 
 
 ![As the visualisation shows, the digitial photographs in this setup are more organic, as the photographer  moves taking more or less pictures where required.](fig/objstaticphotos.png){alt="static obj"}
+
 :::: challenge
 
 ## Challenge: Taking photos
@@ -267,6 +266,5 @@ When doing this consider the best practices, including:
 - Best camera and area setup.
 - Adding scale to the images.
 - How many series of images you plan to acquire and what is the strategy to achieve this.
-
 
 :::: 

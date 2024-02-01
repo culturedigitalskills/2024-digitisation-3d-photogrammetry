@@ -13,44 +13,37 @@ in Cultural Heritage.
 :::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-
 Photogrammetry is a techniques also known as Structure from Motion (SfM). 
 
-They are both used to refer to the computing process 
-of estimating the 3D structure of a scene from a set of 2D raster images.
-The technique receives as an **input** a set of raster images of an object or
-environments, and **outputs** a 3D model.
 
+Both terms are used to refer to the computing process of estimating the 3D structure of a scene from a set of 2D raster images. A photogrammetry software receives as an **input** a set of raster images of an object or environment and  **outputs** a 3D model.
 
-The underlying technology is more familiar that you might think! 
+### Definition
+Defined by the American Society for Photogrammetry and Remote Sensing, photogrammetry is the practice of gathering reliable data about physical objects and environments through the recording, measurement, and interpretation of photographic images. 
 
-It is based on the same principles that the ones use by our
-vision system to perceive the 3-dimensional world.
+Photogrammetry is a highly favoured technique for documenting the shape and appearance of cultural heritage objects due to its cost-effectiveness. 
+
+Essentially, it entails taking 2D photos with a camera and using specialised software to create a 3D model. 
+
+This process involves the software initially identifying features in the images, followed by matching these features, and finally reconstructing the 3D object, with or without colour.
+
+### How does it do it?
+The underlying technology is more familiar than you might think! It is based on the same principles that the ones used by our vision system to perceive the 3-dimensional world. 
+
 
 ![Bernard de Go Mars under Public Domain &copy; from [Wikimedia] (https://commons.wikimedia.org/w/index.php?curid=25846)](fig/Yokohama4MaidsChrysanthemum.jpg){alt="two views" width="60%"}
 
 ![Bernard de Go Mars under Public Domain &copy; from [Wikimedia] (https://commons.wikimedia.org/w/index.php?curid=25846)](fig/Yokohama4MaidsChrysanthemumWikiAnim.gif){alt="two views animated" width="60%"}
 
-Because of this, analogue photographers in the 19th century were already producing stereoscopic and photogrammetry
-set of images of many subjects[^1].
+Because of this principle, analogue photographers in the 19th century were already producing stereoscopic and photogrammetric sets of images of many subjects[^1].
 
 [^1]: [Jörg Albertz (2001) Albrecht Meydenbauer – Pioneer Of Photogrammetric Documentation Of The Cultural Heritage. Proceedings 18th International Symposium CIPA 2001](http://www.theulegium.de/fileadmin/user_upload/Texte/Meydenb.pdf ) 
 
+### Does it work for everything
+There is no restriction on the scale at which photogrammetry operates. 
 
-Moreover, the there is no restriction on the 
-scale that photogrammetry operates.
+As such, photogrammetry is performed at a variety of ranges, from microscopic images to aerial or space images.
 
-As such, photogrammtry is performed 
-at a variety of ranges, from microscopic images
-to aerial or space images.
-
-
-## Heritage Applications 
-
-Photogrammetry is an accessible technique
-for recording information
-related to the 3D surface and colour of 
-heritage objects and environments.
 
 **Be aware** that it does not mean
 it can be applied to every object.
@@ -62,22 +55,15 @@ does it work well with objects that move
 constantly, like a live animal or a dress
 worn by someone.
 
-While photogrammetry may not be ideal for reflective, 
-transparent, and moving objects, there are other 
-Sometimes, this includes coating an object
-with sprays, or accessing specialised dome-shape equipment
-that captures the interaction of light with an object
-so that this can be replicated in the 3D model.
+While photogrammetry may not be ideal for reflective, transparent, and moving objects, there are other solutions to address such issues. 
 
-It can be easily deployed with
-basic equipment, including **digital cameras**
-and there isa variety of software raning
-from *free* to *professional with costly fees*.
-So it scales to various budgets.
+Sometimes, this includes coating an object with powder-like sprays or accessing specialised dome-shape equipment that captures the interaction of light with an object so that this can be replicated in the 3D model.
 
-Hence, it can be deployed for research, but 
-also for archiving and allowing
-wider access.
+## Heritage Applications 
+
+Photogrammetry can be easily deployed with basic equipment, including **digital cameras** and there is a variety of software ranging from free to professional with costly fees. 
+
+Thus, it can fit different project budgets and can be deployed for research, but also for archiving and for allowing wider access.
 
 
 ## Archaeological sites
