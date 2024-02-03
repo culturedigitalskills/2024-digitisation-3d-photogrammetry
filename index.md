@@ -10,7 +10,11 @@ site: sandpaper::sandpaper_site
 This lesson is an introduction to the photogrammetry technique 
 to create 3D models. 
 
-The lesson presents basic background on 
-this technique, as well as practical exercises to acquire a
-dataset for photogrammetry.
+By the end of this lesson, learners will: 
+
+- Be able to explain the basics of this technique and its effect on the practical aspects
+of photogrammetry projects
+- Determine which objects and environments will be suitable for this technique.
+- Design the best setup and strategy to photograph objects.
+- Use a software to process photographs which output a 3D model.
 
