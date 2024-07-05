@@ -4,7 +4,7 @@ title: Setup
 
 ## Equipment
 
-For photogrammetry you will need access to the minimum equipment.
+For photogrammetry you will need access to some minimum equipment.
 
 - **Digital camera**: a compact or a digital single lens reflex (DSLR) camera can be used. Preferably you should use a camera that allows manual control. 
 
@@ -12,7 +12,7 @@ For photogrammetry you will need access to the minimum equipment.
 
 - **Lens**: Fixed lenses are preferred but if you have a variable lens, try not to zoom and define one focal length (to its maximum or minimal value right from the start). A focal length of 50mm (as the eyes see it) or higher would generally work well (generally it is preferable not to go below 35mm). For small objects a lens between 60mm and 80mm would be an option or a macro lens could be used too.
 
-The equipment below are optional but can speed the
+The equipment below is optional but can speed up the
 process if you want to digitise many objects:
 
 
@@ -27,7 +27,7 @@ process if you want to digitise many objects:
 
 You will need access to:
 
-A software which allows you to batch converting raw images from the camera might be useful if you have
+A software which allows you to batch convert raw images from the camera might be useful if you have
 been shooting in raw format. [Raw Therapee](https://www.rawtherapee.com/) is a good option.
 
 An **Image processing software** such as [GIMP](https://www.gimp.org/) will also allow you to manipulate and post-process textures generated after the model has been created. 
@@ -39,11 +39,11 @@ There are various options for **photogrammetry software**. The process for gener
 - [3DF ZEPHYR](https://www.3dflow.net)
 - [Reality Capture](https://www.capturingreality.com) 
 
-[Comparisons](https://formlabs.com/blog/photogrammetry-guide-and-software-comparison/) between these softwares are available. In general, paid versions offer better support and are more user friendly, supporting
+[Comparisons](https://formlabs.com/blog/photogrammetry-guide-and-software-comparison/) between these software are available. In general, paid versions offer better support and are more user friendly, supporting
 a variety of scales, formats and workflows.
 
 
-We will use [**3DFlow ZEPHYR software**](https://www.3dflow.net), 
+Here we make use of the [**3DFlow ZEPHYR software**](https://www.3dflow.net), 
 which has the advantage of being user-friendly and
 provides various types of licenses such as the free educational one. Although there is a limitation
 of only being able to process 50 images for creating

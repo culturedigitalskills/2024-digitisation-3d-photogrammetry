@@ -13,7 +13,7 @@ exercises: 5
 
 To generate a photogrammetric model, we might choose to overlook the concepts and formulas utilised within the software to produce such a model. 
 
-Yet, understanding its functioning can be highly beneficial. Such understanding enables us to evaluate the feasibility of successfully acquiring objects and identify strategies to enhance our chances of success.
+Yet, understanding how the software works can be highly beneficial. Such understanding enables us to evaluate the feasibility of successfully acquiring objects and identify strategies to enhance our chances of success.
 
 
 ## Basic steps 
@@ -79,7 +79,7 @@ The goal of this step is to find correspondences
 of features across different views. 
 
 The software will attempt to match features in two or more images, ideally seeking a reliable outcome. 
-We want a reliable result.
+Here we want a reliable result.
 
 
 ![View of features matched by Metashape photogrammetry software on a dataset of a coloured carboard box. Blue lines display valid matches, and red lines display invalid matches.](fig/feature_matching.png){alt="Features matched" width="60%"}
