@@ -13,7 +13,7 @@ exercises: 60
 
 ## Camera considerations
 
-Some knowledge in digital photography is useful for photogrammetry. In case you do not have
+Some knowledge about digital photography is useful for photogrammetry. In case you do not have
 advanced skills, it is recommended that at least the following advice should
 be followed.
 
@@ -82,7 +82,7 @@ Good acquisition of images is important in order to have a successful project.
 Depending on the type of the object and scene you want to acquire, you might be able to create an optimal setup
 which can allow you to develop a workflow to provide you with a good 3D model. 
 
-Thankfully, there is guidance and best practices, provided by independent bodies and software companies. For example, see the [3D Flow](https://www.3dflow.net/technology/documents/photogrammetry-how-to-acquire-pictures/) software guidance. We will be using this software in this workshop.
+Thankfully, there is guidance and best practices, provided by independent bodies and software companies. For example, see the [3D Flow](https://www.3dflow.net/technology/documents/photogrammetry-how-to-acquire-pictures/) software guidance. 
 
 In general, start the acquisition from an angle/view of the object that has many details and is not very plain. Thereafter,
 you need to take images around the object as shown in the image below.
@@ -186,7 +186,7 @@ control the camera remotely to avoid small
 movements which can be caused by your hand
 pushing the trigger.
 
-![Static camera / move object](fig/staticcam.svg){alt="static camera"Before you start}
+![Static camera / move object setup](fig/staticcam.svg){alt="static camera" width="60%"}
 
 
 
@@ -196,7 +196,7 @@ works best. Again, you want to minimise movements caused unintentionally on the 
 
 
 To avoid the software getting confused
-on the object moving but the background remaining static,
+by the object moving but the background remaining static,
 you can use a box or cloth as a background. 
 
 Black or 
@@ -208,13 +208,13 @@ We will later mask the background, so that the software ignores it. To help with
 without the object before placing the object. This will later become useful
 when applying the mask to the images.
 
-![Photo of setup without object.](fig/Box_PhotoMask.jpg){width="60%"}
+![Photo of setup without object](fig/Box_PhotoMask.jpg){width="60%"}
 
 If artificial light is used, this should be diffused and should not create shadows. 
 
-![Diffused box for static objecst](fig/1024px-Light_Tent_DIY.jpg){alt="turntable" width="60%"}
+![Diffused box for static objects](fig/1024px-Light_Tent_DIY.jpg){alt="turntable" width="60%"}
 
-![Balkan Heritage Field School (photogrammetry course) at Stobi, Republic of Macedonia, Ivan.giogio, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Balkan_Heritage_Field_School-5.jpg) ](https://upload.wikimedia.org/wikipedia/commons/d/d3/Balkan_Heritage_Field_School-5.jpg){width="60%"}
+![Balkan Heritage Field School (photogrammetry course) at Stobi, Ivan.giogio, under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Balkan_Heritage_Field_School-5.jpg) ](https://upload.wikimedia.org/wikipedia/commons/d/d3/Balkan_Heritage_Field_School-5.jpg){width="60%"}
 
 The camera should be placed at a height that allows to see all important features of the artefact (e.g. at an angle of 45 degrees above the object). 
 
@@ -228,7 +228,7 @@ The advantage of this method is that you can have lower ISO and shutter speeds a
 
 
 
-![As the visualisation shows, the digitial photographs in this setup have a repetitive structure.](fig/Horse_Low_TexturedPhotos.jpg){width="100%"}
+![As the visualisation shows, the digital photographs in this setup have a repetitive structure](fig/Horse_Low_TexturedPhotos.jpg){width="100%"}
 
 
 Here you can also find a [**video**](https://www.youtube.com/watch?v=Fj7wGGXPM0A) of a DIY rig that aims to speed up the process when shooting small and medium objects by [**Openscan.eu**](https://en.openscan.eu/).
@@ -241,7 +241,7 @@ the photographer moves around it
 taking pictures. 
 
 
-![Static object / move camera](fig/staticobj.svg){alt="static object" width="60%"}
+![Static object / move camera setup](fig/staticobj.svg){alt="static object" width="60%"}
 
 
 Place the item at a good height so that it 
@@ -252,7 +252,7 @@ In case some areas are not that visible, remember to take different pictures of 
 The advantage of this method is that it will allow you to acquire larger objects without setting up lights.
 
 
-![As the visualisation shows, the digitial photographs in this setup are more organic, as the photographer  moves taking more or less pictures where required.](fig/objstaticphotos.png){alt="static obj"}
+![As the visualisation shows, the digital photographs in this setup are more organic, as the photographer moves taking more or less pictures when required](fig/objstaticphotos.png){alt="static obj"}
 
 :::: challenge
 
