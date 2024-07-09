@@ -1,12 +1,14 @@
 To reference information about this module, please cite:
 
 Karina Rodriguez Echavarria, Myrsini Samaroudi and Nicola Schiavottiello. "Photogrammetry 3D Digitisation".
-2024.
+2024. https://doi.org/10.5281/zenodo.12698179
 
 @online{rodriguez-photo-24,
   author      = {Karina {Rodriguez Echavarria}, Myrsini Samaroudi and Nicola Schiavottiello}
   title       = {Photogrammetry 3D Digitisation},
   year        = {2024},
+url = {https://doi.org/10.5281/zenodo.12698179},
+doi = {10.5281/zenodo.12698179},
 }
 
 Title: Photogrammetry 3D Digitisation
