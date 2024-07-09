@@ -11,6 +11,6 @@
 "episodes/links.Rmd" "1132ff880a63fc3412e8bbc962fd2be6" "site/built/links.md" "2024-07-09"
 "instructors/instructor-notes.md" "e60ebc6911aa1e288c608d176cd6a548" "site/built/instructor-notes.md" "2024-07-09"
 "learners/reference.md" "527a12e217602daae51c5fd9ef8958df" "site/built/reference.md" "2024-07-09"
-"learners/setup.md" "6bc516ff8f6254660ea3cd4fae131bfb" "site/built/setup.md" "2024-07-09"
+"learners/setup.md" "55f14093400bc6c8ca0ab3a424974473" "site/built/setup.md" "2024-07-09"
 "profiles/learner-profiles.md" "5fe5bf7537072422b91ed393ada03f9a" "site/built/learner-profiles.md" "2024-07-09"
 "renv/profiles/lesson-requirements/renv.lock" "7d711c526ece4f7c663cc4db717aab60" "site/built/renv.lock" "2024-07-09"
