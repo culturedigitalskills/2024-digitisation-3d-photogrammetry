@@ -54,7 +54,7 @@ a 3D model.
 
 **Indoor acquisition - camera static / move object**
 
-- Wooden case [TIFF dat aset (7.4 GB)](https://data.d4science.net/iBBZ) and [JPEG dataset (1 GB)](https://data.d4science.net/xDSW)
+- Wooden case [TIFF data set (7.4 GB)](https://data.d4science.net/iBBZ) and [JPEG dataset (1 GB)](https://data.d4science.net/xDSW)
 - Carved horse contains two datasets from different series of images:
   - [TIFF data set 1 (7.8 GB)](https://data.d4science.net/GDnx) and [JPEG data set 1 (1 GB)](https://data.d4science.net/Fvaf)
   - [TIFF data set 2 (22.3 GB)](https://data.d4science.net/Lg1t) and [JPEG data set 2 (3 GB)](https://data.d4science.net/UPgE)
