@@ -80,7 +80,7 @@ You will be presented with the  *"Camera calibration page*".
 
 If you have a separate Exif file for calibrating the camera you can add it here, and you can also manually calibrate your camera in the *"Modify Calibration page"* otherwise go on and click **Next>**
 
-![Image from photogrammetry acquistion.](fig/Box_Photo.jpg){alt="photo"}
+![Image from photogrammetry acquisition](fig/Box_Photo.jpg){alt="photo"}
 
 
 ## Step 4: Importing masks (optional)
@@ -145,7 +145,7 @@ This will speed up the process when creating the final mesh.
 
 ## Step 6: Build a dense point cloud 
 
-Go to**Workflow**in the menu and select **Advanced > Dense Point Cloud Generation**.
+Go to **Workflow** in the menu and select **Advanced > Dense Point Cloud Generation**.
 
 You will be presented with the  *"Dense Point Cloud Generation wizard"*. **Select All Cameras** and click **Next>**
 
@@ -175,7 +175,7 @@ Once happy save the project.
 
 ## Step 8: Building the 3D model
 
-Go to**Workflow**in the menu and select **Advanced > Mesh Extraction**
+Go to **Workflow** in the menu and select **Advanced > Mesh Extraction**
 
 You will be presented with the *"Mesh Generation wizard"*. 
 
@@ -196,7 +196,7 @@ Save the project.
 
 The final step is to re-project the texture onto the 3D surface. 
 
-Go to**Workflow**in the menu and select **Textured Mesh Generation**.
+Go to **Workflow** in the menu and select **Textured Mesh Generation**.
 
 You will be presented with the  *"Textured Mesh Generation wizard"*. In the *drop down* menu select the name of your mesh. **Select All Cameras** and click **Next>**
 

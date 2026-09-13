@@ -13,7 +13,7 @@ in Cultural Heritage.
 :::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-Photogrammetry is a techniques also known as Structure from Motion (SfM). 
+Photogrammetry is a technique also known as Structure from Motion (SfM). 
 
 
 Both terms are used to refer to the computing process of estimating the 3D structure of a scene from a set of 2D raster images. A photogrammetry software receives as an **input** a set of raster images of an object or environment and  **outputs** a 3D model.
@@ -39,7 +39,7 @@ Because of this principle, analogue photographers in the 19th century were alrea
 
 [^1]: [Jörg Albertz (2001) Albrecht Meydenbauer – Pioneer Of Photogrammetric Documentation Of The Cultural Heritage. Proceedings 18th International Symposium CIPA 2001](http://www.theulegium.de/fileadmin/user_upload/Texte/Meydenb.pdf ) 
 
-### Does it work for everything
+### Does it work for everything?
 There is no restriction on the scale at which photogrammetry operates. 
 
 As such, photogrammetry is performed at a variety of ranges, from microscopic images to aerial or space images.

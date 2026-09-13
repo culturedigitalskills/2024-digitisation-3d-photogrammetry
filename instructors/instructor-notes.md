@@ -3,11 +3,6 @@ title: Instructor Notes
 ---
 
 
----
-title: Instructor Notes
----
-
-
 ## Digital Skills in Visual and Material Culture - General Guidelines for Instructors
 
 ### Background
