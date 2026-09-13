@@ -258,8 +258,6 @@ Select from *drop down* menu the format ***.glb*** or ***.gltf*** and click **Ex
 <iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&model=https://data.d4science.org/shub/E_azJzMVp6MENORnRUd0FEdElCa3g5WVBIdEQ5cldBUlJwOHkyYjRITHpTYmVUcFdIUDc1VzRhWTFGdWc5SytNVA==" style="width: 100%;" height="400px" bgColor="#dbdbdb" frameBorder="0"></iframe>
 
 
-
-
 :::: challenge
 
 ## Challenge: Processing the photos and creating a 3D model
